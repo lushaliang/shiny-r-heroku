@@ -12,10 +12,7 @@ datacomplete = read_csv("./datacomplete.csv") %>%
 # User interface                   #
 ####################################
 
-ui = fluidPage(theme = shinytheme("united"),
-               
-               # Page header
-               headerPanel('COVID-19 Pediatric Hospitalization Risk Predictor'),
+ui = fluidPage(headerPanel('COVID-19 Pediatric Hospitalization Risk Predictor'),
                
                # Input values
                sidebarPanel(

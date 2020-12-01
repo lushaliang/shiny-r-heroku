@@ -1,5 +1,4 @@
 library(shiny)
-library(shinythemes)
 
 port <- Sys.getenv('PORT')
 
